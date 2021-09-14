@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--ax+b=0-->
+<script>
+    function solveTheEquation(a, b) {
+        let x
+        if (a === 0) {
+            if (b === 0) {
+                return 'phương trình có vô số nghiệm'
+            } else {
+                return  'phương trình vô nghiệm'
+            }
+        } else if (b === 0) {
+            x = 0
+            return x
+        } else {
+            x = -b / a
+            return x
+        }
+
+    }
+solveTheEquation(5,8)
+    //đề không yêu cầu trả ra màn hình
+</script>
+</body>
+</html>
